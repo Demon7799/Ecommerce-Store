@@ -1,0 +1,46 @@
+
+.footer-height
+{
+	height:3.4vh;
+	bottom: 0px;
+	position: fixed;
+	background: #245894 !important;
+}
+
+.navbar .nav-item .nav-link
+{
+	font-size:14px;
+	color:#bfcdda;
+}
+
+.hover {
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  position: relative;
+  opacity: 0.75;
+}
+
+.hover:hover {
+  opacity: 1;
+}
+
+.hover::before {
+  transition: 300ms;
+  height: 5px;
+  content: "";
+  position: absolute;
+  background-color: white;
+}
+
+.hover-effect::before {
+  width: 0%;
+  bottom: 3px;
+}
+
+.hover-effect:hover::before {
+  width: 70%;
+}
